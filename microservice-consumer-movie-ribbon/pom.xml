@@ -10,25 +10,19 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>microservice-provider-user</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>microservice-consumer-movie-ribbon</artifactId>
     <version>1.0</version>
 
     <dependencies>
-        <!-- 添加Eureka的依赖 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
 
+        <!-- 整合ribbon -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-ribbon</artifactId>
         </dependency>
 
         <dependency>

@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>springclound-demo</groupId>
-    <artifactId>springclound-demo</artifactId>
+    <groupId>springcloud-demo</groupId>
+    <artifactId>springcloud-demo</artifactId>
     <version>1.0</version>
 
     <packaging>pom</packaging>
 
     <modules>
-        <module>microservice-discovery-eureka</module>
+        <module>microservice-discovery-eureka</module> <!-- 服务发现 -->
         <module>microservice-provider-user</module>
-        <!--<module>microservice-consumer-movie-ribbon</module>-->
+        <module>microservice-consumer-movie-ribbon</module> <!-- 负载均衡 -->
         <!--<module>microservice-consumer-movie-feign</module>-->
         <!--<module>microservice-consumer-movie-ribbon-with-hystrix</module>-->
         <!--<module>microservice-consumer-movie-feign-with-hystrix</module>-->
