@@ -1,6 +1,6 @@
-package com.zehua.LoadBalancing.service;
+package com.zehua.loadBalancing.service;
 
-import com.zehua.LoadBalancing.entity.User;
+import com.zehua.loadBalancing.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

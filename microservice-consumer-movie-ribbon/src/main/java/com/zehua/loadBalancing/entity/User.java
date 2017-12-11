@@ -1,4 +1,4 @@
-package com.zehua.LoadBalancing.entity;
+package com.zehua.loadBalancing.entity;
 
 public class User {
     private Long id;

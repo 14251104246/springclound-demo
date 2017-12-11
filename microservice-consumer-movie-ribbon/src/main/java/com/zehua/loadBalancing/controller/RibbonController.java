@@ -1,7 +1,7 @@
-package com.zehua.LoadBalancing.controller;
+package com.zehua.loadBalancing.controller;
 
-import com.zehua.LoadBalancing.entity.User;
-import com.zehua.LoadBalancing.service.RibbonService;
+import com.zehua.loadBalancing.entity.User;
+import com.zehua.loadBalancing.service.RibbonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

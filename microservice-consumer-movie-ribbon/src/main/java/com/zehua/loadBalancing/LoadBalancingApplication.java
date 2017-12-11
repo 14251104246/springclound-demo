@@ -1,4 +1,4 @@
-package com.zehua.LoadBalancing;
+package com.zehua.loadBalancing;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
